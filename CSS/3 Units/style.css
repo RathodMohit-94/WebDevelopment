@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+#px {
+    border: 5px solid black;
+    width: 500px ;
+}
+#vw {
+    border: 5px dotted black;
+    width: 100vw;
+}
+#em1 {
+    font-size: 1em;
+}
+#em2 {
+    font-size: 2em;
+}
+#em3 {
+    font-size: 3em;
+}
+#em4 {
+    font-size: 4em;
+}
+p {
+    font-size: 5rem;
+}

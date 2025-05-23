@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    background-color: aquamarine;
+    font-family: cursive;
+    border: 5px solid blue;
+    border-radius: 10px;
+    width: 50vw;
+    height: 25vh;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 100vw;
+    height: 60px;
+    background-color: darkgreen;
+    position: fixed;
+
+}
+
+.nav {
+    margin: 100px;
+    padding: 40px;
+    display: inline;
+    font-size: 2rem;
+    font-family: cursive;
+
+}
+
+span {
+    align-self: end;
+    padding: 20px;
+    margin: 30px;
+}
+
+.home:hover {
+    text-shadow: 2px 2px 4px white;
+    font-size: 2rem;
+
+}
+
+.About:hover {
+    text-shadow: 2px 2px 4px white;
+    font-size: 2rem;
+
+}
+
+.Contact:hover {
+    text-shadow: 2px 2px 4px white;
+    font-size: 2rem;
+
+}
+.div1 {
+    text-align: justify;
+    padding-top: 100px;
+
+}
