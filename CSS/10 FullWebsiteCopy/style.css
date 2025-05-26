@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: column;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    background: linear-gradient(to top right, lightblue, blue);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    background: linear-gradient(to left , rgb(76, 76, 169) , lightblue);
+    margin: 20px auto;
+    padding: 10px auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    /* border: 1px solid black; */
+    margin: 20px auto;
+    padding: 10px auto;
+    font-family: cursive;
+    font-size: x-large;
+    /* border: 0.5px solid white;
+    border-radius: 12px;
+    color: cornsilk;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); */
+    /* From https://css.glass */
+    background: rgba(34, 160, 219, 0.5);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(34, 160, 219, 0.44);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    /* height: 300px; */
+    color: azure;
+    height: 75px;
+    padding: 10px;
+
+
+}
+
+.image1 {
+    background-image: url(image/mohit-designstyle-cartoon-m.png);
+    height: 40px;
+    width: 40px;
+}
+
+.icons {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+a {
+    color: cornsilk;
+    font-size: larger;
+    font-family: fantasy;
+}
