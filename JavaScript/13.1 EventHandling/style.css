@@ -1,0 +1,27 @@
+
+.container {
+    box-sizing: border-box;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.box {
+    border: 2px solid white;
+    color: aliceblue;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+#box1::before {
+    content: 'Click';
+}
