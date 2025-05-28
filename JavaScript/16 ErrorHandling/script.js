@@ -20,3 +20,9 @@ try {
 }
 
 console.log("Hiiii,Mohit");
+
+
+const isTrue = true == [];
+const isFalse = true == ![];
+
+console.log(isTrue + isFalse);
