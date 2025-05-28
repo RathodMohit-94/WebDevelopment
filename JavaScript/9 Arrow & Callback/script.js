@@ -24,4 +24,3 @@ function callback() {
 }
 
 console.log(Mohit('2',callback));
-
